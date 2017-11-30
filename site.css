@@ -1,0 +1,24 @@
+	body{
+		
+		font-family: "Times New Roman";
+		background-color: ##F2FFFC;
+	}
+
+	h1, h2 {
+		
+		font-family: "Arial";
+	}
+
+	main h1{
+			
+		text-align: center;
+		background-color: #851944;
+		color: #FFF;
+	}
+
+
+	p {
+		
+		text-align: justify;
+		font-family: "Times New Roman";
+	}
