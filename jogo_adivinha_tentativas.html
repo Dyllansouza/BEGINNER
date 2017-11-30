@@ -1,0 +1,34 @@
+<meta charset="UTF-8">
+
+<script>
+    function mostra(frase){
+    	document.write(frase);
+    }
+
+    var numeroPensado = Math.round(Math.random() * 100);
+    var numeroTentativas = 1;
+
+    while(numeroTentativas <= 3){
+	
+		var chute = parseInt(prompt("Qual você acha que é?"));
+	
+		if ( chute == numeroPensado){
+			alert("Parabéns, você acertou!");
+		break;
+			} else {
+		alert("Você errou, será que tem mais tentativas?");
+
+		if (chute > numeroPensado){
+			alert("Seu chute é MENOR do que o numero!");
+		}
+
+		if (chute < numeroPensado){
+			alert("Seu chute é MENOR do que o numero ");
+		}
+		}
+	numeroTentativas++;
+	}
+	
+
+
+    </script>

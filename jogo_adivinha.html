@@ -1,0 +1,14 @@
+<meta charset="UTF-8">
+
+<script>
+    function mostra(frase){
+    	document.write(frase);
+    }
+
+    var numeroPensado = Math.round(Math.random() * 100);
+    var chute = prompt("Qual você acha que é?")
+
+    if (chute == numeroPensado){
+    	mostra("Uau, você acertou, eu pensei no " + numeroPensado);
+    }
+    </script>
