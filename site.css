@@ -10,10 +10,14 @@
 	}
 
 	main h1{
-			
+
 		text-align: center;
 		background-color: #851944;
 		color: #FFF;
+		padding: 24px;
+		margin: 0;
+		padding: 25px;
+		border-bottom: 10px solid black;
 	}
 
 
@@ -22,3 +26,51 @@
 		text-align: justify;
 		font-family: "Times New Roman";
 	}
+
+	blockquote {
+		background-color: #D9E5E3;
+		padding: 20px;
+		border: 10px solid #C2CCCA;
+		border-bottom-color: #333;
+    	border-right-color: #FFF;
+		margin: 0;
+		width: 250px;
+		box-sizing: border-box;
+	}
+
+	aside {
+		background-color: #3C1D3D;
+		color: #F2FFFC;
+		padding: 20px;
+	}
+
+
+	footer {
+		background-color: #000000;
+		color: #F2FFFC;
+		padding: 20px;
+	}
+
+	nav a {
+		color: #F2FFFC;
+	}
+
+	main a {
+		color: #851944;
+	}
+
+	aside a {
+		color: inherit;
+		font-family: : "Open Sans Condensed", sans-serif;
+	}
+
+	div {
+		width: 720px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	body {
+		line-height: 1.5;
+	}
+
