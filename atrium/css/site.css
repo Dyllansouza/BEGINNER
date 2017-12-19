@@ -11,3 +11,7 @@ ul li {
 h1 {
 	border-bottom: 4px solid #474743;
 }
+
+.redondo {
+	border-radius: 50%;
+}
