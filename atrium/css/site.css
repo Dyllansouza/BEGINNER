@@ -1,8 +1,13 @@
-main {
-	display: block;	
-}
-
 ul li {
   list-style-type: none;
-  display: block;	
+  display: inline;	
+}
+
+.logo {
+	position: relative;
+	left: 500px;
+}
+
+h1 {
+	border-bottom: 4px solid #474743;
 }
